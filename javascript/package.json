@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "@arco-design/web-react": "2.61.0",
+    "@arco-design/web-react": "2.64.0",
     "@arco-themes/react-easy-email-pro": "0.0.1",
     "@arco-themes/react-meiro-easy-email": "0.0.1",
     "@dnd-kit/core": "3.1.1",
