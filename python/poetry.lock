@@ -469,19 +469,21 @@ develop = ["coverage (<5.0.0)", "mock", "pytest (>=3.0.0)", "pytest-cov", "pytes
 
 [[package]]
 name = "eventlet"
-version = "0.33.3"
+version = "0.37.0"
 description = "Highly concurrent networking library"
 optional = false
-python-versions = "*"
+python-versions = ">=3.7"
 files = [
-    {file = "eventlet-0.33.3-py2.py3-none-any.whl", hash = "sha256:e43b9ae05ba4bb477a10307699c9aff7ff86121b2640f9184d29059f5a687df8"},
-    {file = "eventlet-0.33.3.tar.gz", hash = "sha256:722803e7eadff295347539da363d68ae155b8b26ae6a634474d0a920be73cfda"},
+    {file = "eventlet-0.37.0-py3-none-any.whl", hash = "sha256:801ac231401e41f33a799457c78fdbfabc1c2f28bf9346d4ec4188e9aebc2067"},
+    {file = "eventlet-0.37.0.tar.gz", hash = "sha256:fa49bf5a549cdbaa06919679979ea022ac8f8f3cf0499f26849a1cd8e64c30b1"},
 ]
 
 [package.dependencies]
 dnspython = ">=1.15.0"
-greenlet = ">=0.3"
-six = ">=1.10.0"
+greenlet = ">=1.0"
+
+[package.extras]
+dev = ["black", "build", "commitizen", "isort", "pip-tools", "pre-commit", "twine"]
 
 [[package]]
 name = "filetype"
@@ -1269,4 +1271,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "~3.10"
-content-hash = "62dc4fc11c4d5652dc18e50a8008851818663dad038f72566f290306199f0ec9"
+content-hash = "0ff0ded8a1202c16481a21b484e1d33079c2d8fc11b2792cac928c703234fa4f"
