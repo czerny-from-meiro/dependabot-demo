@@ -1,10 +1,28 @@
 {
-  "name": "javascript",
+  "name": "test",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "private": true,
+  "type": "module",
   "dependencies": {
-    "hot-formula-parser": "^3.0.0",
-    "lodash": "^4.17.20"
-  }
+    "@arco-design/web-react": "2.61.0",
+    "@arco-themes/react-easy-email-pro": "0.0.1",
+    "@arco-themes/react-meiro-easy-email": "0.0.1",
+    "@dnd-kit/core": "3.1.1",
+    "@dnd-kit/sortable": "4.0.0",
+    "@dnd-kit/utilities": "^3.2.2",
+    "@fortawesome/fontawesome-svg-core": "6.4.0",
+    "@fortawesome/free-brands-svg-icons": "6.4.0",
+    "@fortawesome/free-regular-svg-icons": "6.4.0",
+    "@fortawesome/free-solid-svg-icons": "6.4.0",
+    "@fortawesome/pro-light-svg-icons": "6.4.0",
+    "@fortawesome/pro-regular-svg-icons": "6.4.0",
+    "@fortawesome/pro-solid-svg-icons": "6.4.0",
+    "@fortawesome/react-fontawesome": "0.2.0"
+  },
+  "engines": {
+    "node": ">=18",
+    "yarn": ">=3.3.1",
+    "npm": "please-use-yarn"
+  },
+  "packageManager": "pnpm@9.7.0"
 }

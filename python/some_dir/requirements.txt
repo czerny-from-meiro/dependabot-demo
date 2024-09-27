@@ -1,0 +1,4 @@
+passlib==1.7.1
+python-dotenv==1.0.0
+envkey==2.4.0
+configobj==5.0.8

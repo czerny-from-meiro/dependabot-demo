@@ -1,15 +1,28 @@
 ---
 version: 2
+
 updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
+# JAVASCRIPT
   - package-ecosystem: npm
     directory: "/javascript"
     schedule:
       interval: "weekly"
-  - package-ecosystem: bundler
-    directory: "/ruby"
+#      day: "monday"
+    open-pull-requests-limit: 5
+    pull-request-branch-name:
+      separator: _
+# PYTHON (PIP AND POETRY)
+  - package-ecosystem: pip
+    directory: "/python"
     schedule:
       interval: "weekly"
+  #      day: "monday"
+    open-pull-requests-limit: 3
+    pull-request-branch-name:
+      separator: _
+
+
