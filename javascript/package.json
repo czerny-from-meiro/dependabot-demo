@@ -8,7 +8,7 @@
     "@arco-themes/react-easy-email-pro": "0.0.1",
     "@arco-themes/react-meiro-easy-email": "0.0.1",
     "@dnd-kit/core": "3.1.1",
-    "@dnd-kit/sortable": "4.0.0",
+    "@dnd-kit/sortable": "8.0.0",
     "@dnd-kit/utilities": "^3.2.2",
     "@fortawesome/fontawesome-svg-core": "6.6.0",
     "@fortawesome/free-brands-svg-icons": "6.4.0",
