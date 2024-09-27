@@ -485,13 +485,13 @@ six = ">=1.10.0"
 
 [[package]]
 name = "filetype"
-version = "1.1.0"
+version = "1.2.0"
 description = "Infer file type and MIME type of any file/buffer. No external dependencies."
 optional = false
 python-versions = "*"
 files = [
-    {file = "filetype-1.1.0-py2.py3-none-any.whl", hash = "sha256:117e25a50988d1a03a32ed510f4a15353e7291e683e94c63930497dd2c66ce24"},
-    {file = "filetype-1.1.0.tar.gz", hash = "sha256:afe4a00029601f66d239b72688065cc7c219dec1c927994f90b825e9e53d8f93"},
+    {file = "filetype-1.2.0-py2.py3-none-any.whl", hash = "sha256:7ce71b6880181241cf7ac8697a2f1eb6a8bd9b429f7ad6d27b8db9ba5f1c2d25"},
+    {file = "filetype-1.2.0.tar.gz", hash = "sha256:66b56cd6474bf41d8c54660347d37afcc3f7d1970648de365c102ef77548aadb"},
 ]
 
 [[package]]
@@ -1269,4 +1269,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "~3.10"
-content-hash = "62dc4fc11c4d5652dc18e50a8008851818663dad038f72566f290306199f0ec9"
+content-hash = "99f7c0013d84e7c02f29a906515bd0af50c61997c643515cdd5d725f2b7786ac"
