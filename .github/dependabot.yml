@@ -28,6 +28,17 @@ updates:
     update-types: patch
     pull-request-branch-name:
       separator: _
+  # docker-compose
+  - package-ecosystem: docker
+    directory: "/"
+    schedule:
+      interval: "monthly"
+      day: "monday"
+      time: "01:00"
+    open-pull-requests-limit: 50
+    update-types: patch
+    pull-request-branch-name:
+      separator: _
 #    groups:
 #      production-dependencies:
 #        dependency-type: production
