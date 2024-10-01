@@ -14,7 +14,7 @@ updates:
       day: "monday"
       time: "01:00"
     open-pull-requests-limit: 50
-    update-types: patch
+    update-types: minor, patch
     pull-request-branch-name:
       separator: _
 # PYTHON (PIP AND POETRY)
